@@ -10,7 +10,7 @@ const Footer = () => {
                     rel="stylesheet"
                 />
                 <div className="bg-[#00022a] py-8">
-                    <div className="container mx-auto">
+                    <div className="px-[8em]">
                         <div className="grid grid-cols-12 gap-4">
                             <div className="col-span-12 md:col-span-4">
                                 <img src={DarkLogo} alt="" />
