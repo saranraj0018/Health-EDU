@@ -14,3 +14,49 @@
 body section{
     overflow-x: hidden;
 }
+.adm-opn{
+    background: url('../search-page-2/admission-open.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-y-scroller {
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #C3C3DB transparent; 
+}
+
+
+.my-y-scroller::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.my-y-scroller::-webkit-scrollbar-thumb {
+    background-color: #C3C3DB; 
+    border-radius: 10px; 
+}
+
+.my-y-scroller::-webkit-scrollbar-track {
+    background-color: grey; 
+    border-radius: 10px; 
+}
+
+.my-x-scroller {
+    overflow-x: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #C3C3DB transparent; 
+}
+
+.my-x-scroller::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.my-x-scroller::-webkit-scrollbar-thumb {
+    background-color: #C3C3DB; 
+    border-radius: 10px; 
+}
+
+.my-x-scroller::-webkit-scrollbar-track {
+    background-color: grey; 
+    border-radius: 10px; 
+}

@@ -3,7 +3,7 @@ const Elements = ({
 }) => {
     return (
         <>
-        <div className="space-y-4 rounded-3xl shadow-lg bg-white p-3">
+        <div className="space-y-4 rounded-3xl bg-white p-3">
             <div className="relative">
                 <div className="flex justify-end space-x-2 absolute right-[5px] top-[5px]">
                     <div className="hover:bg-white p-2 rounded-full bg-[#e5edf07d] backdrop-blur-sm">
@@ -19,7 +19,7 @@ const Elements = ({
                 </div>
                 <img src={Image} alt="" />
             </div>
-            <h2 className="font-medium my-auto text-[18px]">{Heading}</h2>
+            <h2 className="font-medium my-auto text-[17px]">{Heading}</h2>
             <div className="flex space-x-2 text-sm">
                 <div className="px-1 py-1 rounded-full bg-gray-100 flex my-auto font-medium">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none" className="me-1 my-auto">
