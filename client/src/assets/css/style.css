@@ -4,6 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.search-hero-bg{
+    background: url('../search-page/search-page-banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 body section{
     overflow-x: hidden;
