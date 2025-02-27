@@ -20,6 +20,14 @@ body section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.college-banner{
+    background: url('../college-home/college-home-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ************************SCROLLBAR STYLE */
 .my-y-scroller {
     overflow-y: auto; 
     scrollbar-width: thin; 
@@ -60,3 +68,4 @@ body section{
     background-color: grey; 
     border-radius: 10px; 
 }
+/* ************************SCROLLBAR STYLE */

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="bg-white shadow-md px-[8em] flex justify-between items-center py-4 h-fit">
+    <nav className="bg-white px-[8em] flex justify-between items-center py-4 h-fit">
       <div className="w-[110px]">
         <img src={Logo} alt="Logo" className="" />
       </div>

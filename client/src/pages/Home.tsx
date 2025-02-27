@@ -231,7 +231,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <Section5 />
       <Section6 />
     </>
