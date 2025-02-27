@@ -32,7 +32,7 @@ const Home = () => {
         </div>
 
         <div className="gap-5 p-3 h-[67vh] flex justify-center items-center ">
-          <div className="flex flex-col justify-between h-full">
+          <div className="flex flex-col justify-between h-full space-y-8">
             <Card
               icon={Icon}
               heading="Find"
@@ -54,7 +54,7 @@ const Home = () => {
             <img src={RC} alt="" className="mx-auto" />
           </div>
 
-          <div className="flex flex-col justify-between h-full">
+          <div className="flex flex-col justify-between h-full space-y-8">
             <Card
               icon={Icon4}
               heading="Compare"

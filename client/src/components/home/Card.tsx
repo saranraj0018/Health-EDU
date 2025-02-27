@@ -14,7 +14,7 @@ const Card = ({
         <img src={icon} alt="" />
       </div>
       <div className="text-justify text-sm  mt-4">
-        <p className="p-2">{description}</p>
+        <p>{description}</p>
       </div>
     </div>
   );
