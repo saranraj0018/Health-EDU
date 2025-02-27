@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <Hero />
 
-      <section className="px-[6em] h-fit mt-[3em] overflow-hidden">
+      <section className=" px-[8em] xl:px-[8em] 2xl:px-[10em] h-fit mt-[3em] overflow-hidden">
         <div className="my-8">
           <h2 className="text-center text-[1.5em] font-manrope font-medium text-primary">
             Confused about choosing the right college?
@@ -31,8 +31,8 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="gap-5 p-3 h-[67vh] flex justify-center items-center ">
-          <div className="flex flex-col justify-between h-full space-y-8">
+        <div className="gap-5 p-3 h-[67vh] xl:h-[50vh] flex justify-center items-center ">
+          <div className="flex flex-col justify-between xl:justify-start h-full space-y-8">
             <Card
               icon={Icon}
               heading="Find"
@@ -54,7 +54,7 @@ const Home = () => {
             <img src={RC} alt="" className="mx-auto" />
           </div>
 
-          <div className="flex flex-col justify-between h-full space-y-8">
+          <div className="flex flex-col justify-between xl:justify-start h-full space-y-8">
             <Card
               icon={Icon4}
               heading="Compare"
@@ -75,7 +75,7 @@ const Home = () => {
         <hr className="text-[#7a89ff] my-16" />
       </section>
 
-      <div className="px-[6em] mx-auto my-5">
+      <div className=" px-[8em] xl:px-[8em] 2xl:px-[10em] mx-auto my-5">
         <div className="text-center text-3xl font-manrope font-medium text-primary">
           Discover New Perks
         </div>
@@ -208,10 +208,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="bg-[#d0d9ff] pt-12 my-16 px-[8em]">
+      <section className="bg-[#d0d9ff] pt-12 my-16 px-[8em] xl:px-[8em] 2xl:px-[10em]">
         <div className="mx-auto">
           <div className="grid grid-cols-12 gap-3">
-            <div className="col-span-12 md:col-span-5 space-y-5 my-auto">
+            <div className="col-span-12 md:col-span-5 xl:col-span-6 2xl:col-span-6 space-y-5 my-auto">
               <h2 className="text-lg md:text-3xl text-primary font-manrope font-medium">
                 Unsure about the right medical career path?
               </h2>
@@ -225,7 +225,7 @@ const Home = () => {
                 Find Your Career Match
               </button>
             </div>
-            <div className="col-span-12 md:col-span-7 flex align-bottom">
+            <div className="col-span-12 md:col-span-7 xl:col-span-6 2xl:col-span-6 flex align-bottom">
               <img src={Img} alt="" />
             </div>
           </div>
