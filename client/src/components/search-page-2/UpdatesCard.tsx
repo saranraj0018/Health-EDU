@@ -1,6 +1,6 @@
-import React from 'react'
 
-const UpdatesCard = ({Date, Content}) => {
+
+const UpdatesCard = ({Date, Content}: {Date: string, Content: string}) => {
   return (
     <>
       <div className="bg-white rounded-2xl p-3 space-y-2 w-max mb-4">

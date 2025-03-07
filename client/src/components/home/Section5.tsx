@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Rankings from "./tabs/Rankings";
 import Courses from "./tabs/Courses";
 import New from "../../assets/new-icon-gif-animation-14 1.png";
@@ -13,7 +13,7 @@ const Section5 = () => {
 
   return (
     <>
-      <section className="my-5 container mx-auto px-[5em]">
+      <section className="my-5  px-[8em] xl:px-[8em] 2xl:px-[10em]">
         <h2 className="text-lg md:text-3xl text-primary font-manrope font-medium mb-6">
           Discover Colleges & Courses Hand Picked For You
         </h2>

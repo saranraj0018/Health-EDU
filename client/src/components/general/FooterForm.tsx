@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import React from 'react'
+=======
+
+import RegisterPopup from './RegisterPopup'
+>>>>>>> adeb0ef2f5ada2e997c219fa846a0dc64da917a5
 const FooterForm = () => {
   return (
     <>

@@ -1,4 +1,13 @@
-const Card = ({CourseName,YearlyFees,TotalFees,Duration,Eligiblity}) => {
+
+type Props = {
+    CourseName: string;
+    YearlyFees: string;
+    TotalFees: string;
+    Duration: string;
+    Eligiblity: string;
+}
+
+const Card = ({CourseName,YearlyFees,TotalFees,Duration,Eligiblity}: Props) => {
     return (
       <>
       <div className="bg-white rounded-2xl p-3 space-y-2 mb-4">

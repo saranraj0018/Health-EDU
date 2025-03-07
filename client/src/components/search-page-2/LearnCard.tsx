@@ -1,6 +1,6 @@
 const LearnCard = ({
-    image,title,description
-}) => {
+    image, title, description
+}: {  image: string, title: string, description: string }) => {
   return (
     <>
       <div className="p-4 border-1 border-[#a9b6fe] rounded-3xl space-y-2 h-full">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Home from "./tab-elements/home/Home";
 import CoursesFees from "./tab-elements/courses-fees/CoursesFees";
 import Admission from "./tab-elements/admission/Admission";
@@ -6,7 +6,7 @@ const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
     // Function to handle tab change
-    const handleTabChange = (tabName) => {
+    const handleTabChange = (tabName: string) => {
         setActiveTab(tabName);
     };
 

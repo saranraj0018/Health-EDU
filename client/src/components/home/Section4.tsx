@@ -1,4 +1,4 @@
-import React from "react";
+
 import Img from "../../assets/img74.png";
 const Section4 = () => {
   return (

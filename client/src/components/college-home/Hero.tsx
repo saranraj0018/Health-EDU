@@ -1,5 +1,15 @@
 import LogoIcon from "../../assets/logo-icon.png";
-const Hero = ({Rating, CollegeName}) => {
+
+
+
+
+type Props = {
+  Rating: string;
+  CollegeName: string;
+}
+
+
+const Hero = ({Rating, CollegeName}: Props) => {
   return (
     <>
       <section className="px-[8em]">

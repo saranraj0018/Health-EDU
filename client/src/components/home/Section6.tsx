@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const videos = [
   "https://www.youtube.com/embed/VIDEO_ID_1",
@@ -52,7 +52,7 @@ const Section6 = () => {
           </h2>
         </div>
       </section>
-      <section className="container mx-auto px-[5em] mt-[-100px] m-16">
+      <section className=" px-[8em] xl:px-[8em] 2xl:px-[10em] mt-[-100px] my-16">
         {/* Slider Container */}
         <div className="relative">
           {/* Left Arrow */}

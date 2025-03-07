@@ -6,7 +6,7 @@ import image1 from '../../assets/search-page-2/pharmacy-img-1.png';
 import image2 from '../../assets/search-page-2/pharmacy-img-2.png';
 import image3 from '../../assets/search-page-2/pharmacy-img-3.png';
 
-const Tdi = ({Title, Description}) => {
+const Tdi = ({Title, Description}: { Title: string, Description: string }) => {
   return (
     <>
     <div className="space-y-5">

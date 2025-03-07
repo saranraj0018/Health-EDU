@@ -7,7 +7,27 @@ import Icon6 from '../../assets/college-home/icon-6.png';
 import Icon7 from '../../assets/college-home/icon-7.png';
 import Icon8 from '../../assets/college-home/icon-8.png';
 
-const Section1 = ({ heading, description, Afu, Itype, Fac, AreaSq, EstYr, AreaAcre, Acrd, Web }) => {
+
+
+
+type Props = {
+  heading: string; 
+  description: string; 
+  Afu: string; 
+  Itype: string; 
+  Fac: string; 
+  AreaSq: string; 
+  EstYr: string; 
+  AreaAcre: string; 
+  Acrd: string; 
+  Web: string;
+}
+
+
+
+
+
+const Section1 = ({ heading, description, Afu, Itype, Fac, AreaSq, EstYr, AreaAcre, Acrd, Web }: Props) => {
   return (
     <>
       <section className="px-[8em] my-8 space-y-4">

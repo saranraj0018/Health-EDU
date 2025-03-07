@@ -1,5 +1,5 @@
 import Avatar from "../../../../../assets/college-home/tabs/home/Avatar.png";
-const ReviewCard = ({Description, Name, Date}) => {
+const ReviewCard = ({Description, Name, Date}: {Description: string, Name: string, Date: string}) => {
     return (
         <>
             <div className="flex space-x-2">

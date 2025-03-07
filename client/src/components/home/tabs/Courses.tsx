@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PG1 from '../../../assets/p1.png';
 import PG2 from '../../../assets/p2.png';
 import PG3 from '../../../assets/p3.png';
@@ -83,19 +83,6 @@ const Courses = () => {
                 &#10095;
             </button>
 
-            <style jsx>{`
-        @media (max-width: 768px) {
-          div > div > div {
-            min-width: 50%; /* 2 cards visible on tablets */
-          }
-        }
-
-        @media (max-width: 480px) {
-          div > div > div {
-            min-width: 100%; /* 1 card visible on mobile */
-          }
-        }
-      `}</style>
         </div>
     );
 };

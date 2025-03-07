@@ -1,8 +1,8 @@
-import React from "react";
+
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const CircularProgress = ({ progress }) => {
+const CircularProgress = ({ progress }: { progress: number }) => {
     return (
         <CircularProgressbar
             value={(progress / 5) * 100} // Convert 0-5 to percentage

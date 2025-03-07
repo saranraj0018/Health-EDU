@@ -1,7 +1,16 @@
 import Infrastructure from "../../../../assets/college-home/tabs/home/Home tab pic.png";
 import LadyImage from "../../../../assets/college-home/tabs/home/Home tab pic 2.png";
 
-const Section1 = ({CollegeName, Hp, Ap, Sp, Hfee}) => {
+type Props = {
+    CollegeName: string;
+    Hp: string;
+    Ap: string;
+    Sp: string;
+    Hfee: string;
+}
+
+
+const Section1 = ({CollegeName, Hp, Ap, Sp, Hfee}: Props) => {
     return (
         <>
             <section className="my-3 px-[8em]">
