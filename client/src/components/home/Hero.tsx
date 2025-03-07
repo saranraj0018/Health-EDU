@@ -1,6 +1,6 @@
-import React from "react";
+
 import "../../assets/css/style.css";
-import Search from "./banner/search";
+import Search from "./banner/Search";
 
 const Hero = () => {
   return (

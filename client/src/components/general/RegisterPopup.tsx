@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DarkLogo from "../../assets/logo.png";
 import Icon from "../../assets/logo-icon.png";
 

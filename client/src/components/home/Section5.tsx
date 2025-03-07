@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Rankings from "./tabs/Rankings";
 import Courses from "./tabs/Courses";
 import New from "../../assets/new-icon-gif-animation-14 1.png";

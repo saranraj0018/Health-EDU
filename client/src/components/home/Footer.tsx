@@ -1,4 +1,4 @@
-import React from 'react'
+
 import DarkLogo from "../../assets/logo.png";
 
 const Footer = () => {

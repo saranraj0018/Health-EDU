@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const videos = [
   "https://www.youtube.com/embed/VIDEO_ID_1",

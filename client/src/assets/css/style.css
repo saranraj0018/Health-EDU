@@ -82,3 +82,14 @@ body section{
 }
 /* ************************SCROLLBAR STYLE */
 
+@media (max-width: 768px) {
+    div > div > div {
+      min-width: 50%; /* 2 cards visible on tablets */
+    }
+  }
+
+  @media (max-width: 480px) {
+    div > div > div {
+      min-width: 100%; /* 1 card visible on mobile */
+    }
+  }

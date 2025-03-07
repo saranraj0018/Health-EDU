@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Banner from '../components/search-page/Banner';
 import Filter from '../components/search-page/Filter';
 import Cards from '../components/search-page/Cards';

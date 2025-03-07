@@ -1,24 +1,8 @@
-import React from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+
 import "react-circular-progressbar/dist/styles.css";
 import Progress from "./section6/Progress";
 import Reviews from "./section6/Reviews";
 
-const CircularProgress = ({ progress }) => {
-    return (
-        <CircularProgressbar
-            value={(progress / 5) * 100} // Convert 0-5 to percentage
-            text={`${progress}`}
-            styles={buildStyles({
-                strokeLinecap: "round",
-                textSize: "18px",
-                pathColor: "#444FFF",
-                textColor: "black",
-                trailColor: "#d0d9ff",
-            })}
-        />
-    );
-};
 
 const Section5 = () => {
     return (

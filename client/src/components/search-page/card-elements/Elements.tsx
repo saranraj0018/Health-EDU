@@ -1,6 +1,6 @@
 const Elements = ({
     Image, Heading, reviewnumber, Reviews
-}) => {
+} : { Image: string, Heading: string, reviewnumber: string, Reviews: string }) => {
     return (
         <>
         <div className="space-y-4 rounded-3xl bg-white p-3">

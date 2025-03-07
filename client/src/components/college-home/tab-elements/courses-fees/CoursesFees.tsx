@@ -1,6 +1,5 @@
 import Filters from "./Filters";
 import Card from "./Card";
-import FooterForm from "../../../general/FooterForm";
 
 const CoursesFees = () => {
   return (

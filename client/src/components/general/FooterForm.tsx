@@ -1,4 +1,4 @@
-import React from 'react'
+
 import RegisterPopup from './RegisterPopup'
 const FooterForm = () => {
   return (
