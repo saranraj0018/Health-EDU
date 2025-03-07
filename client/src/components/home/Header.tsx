@@ -15,40 +15,40 @@ const Header = () => {
           <Link to="/">Home</Link>
         </li>
 
-        <li className="">
-          <button>
-            <span className="pe-3">Colleges</span>
+        <li className="/college-home">
+          <Link to="/college-home" className="pe-3" style={{ cursor: 'pointer' }}>
+            Colleges
             <i className="fa fa-chevron-down font-medium"></i>
-          </button>
+          </Link>
         </li>
 
         <li className="">
-          <Link to="courses" className="">
+          <Link to="/" className="" style={{ cursor: 'pointer' }}>
             <span className="pe-3">Courses</span>
             <i className="fa fa-chevron-down"></i>
           </Link>
         </li>
 
         <li className="">
-          <Link to="counselling" className="">
+          <Link to="/" className="" style={{ cursor: 'pointer' }}>
             Counselling
           </Link>
         </li>
 
         <li className="">
-          <Link to="scholarships" className="">
+          <Link to="/" className="" style={{ cursor: 'pointer' }}>
             Scholarships
           </Link>
         </li>
 
         <li className="">
-          <Link to="contact-us" className="">
+          <Link to="/" className="" style={{ cursor: 'pointer' }}>
             Contact us
           </Link>
         </li>
 
         <li className="">
-          <Link to="login" className="font-semibold text-black">
+          <Link to="/" className="font-semibold text-black" style={{ cursor: 'pointer' }}>
             Login
           </Link>
         </li>

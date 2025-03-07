@@ -42,6 +42,7 @@ const RegisterPopup = () => {
             <button
                 onClick={() => setIsOpen(true)}
                 className="bg-primary text-white rounded-3xl py-1 px-6 font-semibold"
+                style={{ cursor: 'pointer' }}
             >
                 Register
             </button>
@@ -120,7 +121,7 @@ const RegisterPopup = () => {
                                         Register now to Apply
                                     </h2>
                                     {/* Close Button Inside */}
-                                    <button onClick={() => setIsOpen(false)} className="p-2 rounded-full bg-white">
+                                    <button onClick={() => setIsOpen(false)} className="p-2 rounded-full bg-white" style={{ cursor: 'pointer' }}>
                                         {CloseIcon}
                                     </button>
                                 </div>
