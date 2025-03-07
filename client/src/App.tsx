@@ -14,7 +14,6 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/search-page" element={<SearchPage />} />
           <Route path="/search-page-2" element={<SearchPage2 />} />
-          <Route path="/search-page-2" element={<SearchPage2 />} />
           <Route path="/college-home" element={<CollegeHome />}/>
         </Route>
       </Routes>

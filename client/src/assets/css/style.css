@@ -27,6 +27,11 @@ body section{
     background-size: cover;
 }
 
+.bg-myCyan{
+    background: linear-gradient(180deg, #D2F5FB 0%, #80ECFF 100%);
+}
+
+
 /* ************************SCROLLBAR STYLE */
 .my-y-scroller {
     overflow-y: auto; 
