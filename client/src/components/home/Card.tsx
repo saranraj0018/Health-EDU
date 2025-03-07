@@ -1,3 +1,5 @@
+import React from "react";
+
 const Card = ({
   icon,
   heading,
@@ -20,4 +22,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default React.memo(Card);

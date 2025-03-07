@@ -4,7 +4,81 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.search-hero-bg{
+    background: url('../search-page/search-page-banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 body section{
     overflow-x: hidden;
 }
+.adm-opn{
+    background: url('../search-page-2/admission-open.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.college-banner{
+    background: url('../college-home/college-home-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rform-bg{
+    background: url('../Form-pop.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-myCyan{
+    background: linear-gradient(180deg, #D2F5FB 0%, #80ECFF 100%);
+}
+
+
+/* ************************SCROLLBAR STYLE */
+.my-y-scroller {
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #C3C3DB transparent; 
+}
+
+
+.my-y-scroller::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.my-y-scroller::-webkit-scrollbar-thumb {
+    background-color: #C3C3DB; 
+    border-radius: 10px; 
+}
+
+.my-y-scroller::-webkit-scrollbar-track {
+    background-color: grey; 
+    border-radius: 10px; 
+}
+
+.my-x-scroller {
+    overflow-x: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #C3C3DB transparent; 
+}
+
+.my-x-scroller::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.my-x-scroller::-webkit-scrollbar-thumb {
+    background-color: #C3C3DB; 
+    border-radius: 10px; 
+}
+
+.my-x-scroller::-webkit-scrollbar-track {
+    background-color: grey; 
+    border-radius: 10px; 
+    
+}
+/* ************************SCROLLBAR STYLE */
+

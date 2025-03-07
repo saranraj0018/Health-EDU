@@ -1,9 +1,11 @@
 import Logo from "../../assets/hedu-Logo.png";
 import { Link } from "react-router-dom";
+import RegisterPopup from '../general/RegisterPopup'
+
 
 const Header = () => {
   return (
-    <nav className="bg-white shadow-md px-[8em] flex justify-between items-center py-4 h-fit">
+    <nav className="bg-white px-[8em] flex justify-between items-center py-4 h-fit">
       <div className="w-[110px]">
         <img src={Logo} alt="Logo" className="" />
       </div>
@@ -51,13 +53,8 @@ const Header = () => {
           </Link>
         </li>
 
-        <li>
-          <Link
-            to="register"
-            className="bg-primary text-white rounded-3xl py-2 px-7 font-semibold"
-          >
-            Register
-          </Link>
+        <li className="">
+          <RegisterPopup/>
         </li>
       </ul>
     </nav>
