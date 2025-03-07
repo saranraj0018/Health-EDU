@@ -1,7 +1,7 @@
 const Card = ({CourseName,YearlyFees,TotalFees,Duration,Eligiblity}) => {
     return (
       <>
-      <div className="bg-white rounded-2xl p-3 space-y-2">
+      <div className="bg-white rounded-2xl p-3 space-y-2 mb-4">
           <h2 className="text-primary font-manrope font-semibold border-s-2 border-primary ps-1">
             {CourseName}
           </h2>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Home from "./tab-elements/home/Home";
 import CoursesFees from "./tab-elements/courses-fees/CoursesFees";
-
+import Admission from "./tab-elements/admission/Admission";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
@@ -30,6 +30,7 @@ const Tabs = () => {
                 )}
             </div>
         </section>
+        <hr/>
         <section className="mb-5">
             {/* Tab Content */}
             <div className="mt-5">
@@ -41,7 +42,7 @@ const Tabs = () => {
                     <CoursesFees/>
                 )}
                 {activeTab === "Admission" && (
-                    <p className="text-gray-600">Admission.</p>
+                    <Admission/>
                 )}
                 {activeTab === "Scholarship" && (
                     <p className="text-gray-600">Learn about the admission Scholarship.</p>
