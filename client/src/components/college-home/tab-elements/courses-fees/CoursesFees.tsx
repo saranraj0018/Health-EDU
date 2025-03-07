@@ -1,5 +1,6 @@
 import Filters from "./Filters";
 import Card from "./Card";
+import FooterForm from "../../../general/FooterForm";
 
 const CoursesFees = () => {
   return (
@@ -61,8 +62,6 @@ const CoursesFees = () => {
         {/* PAGINATION BUTTON FIELDS */}
 
       </section>
-
-
     </>
   )
 }
