@@ -1,5 +1,7 @@
 import Logo from "../../assets/hedu-Logo.png";
 import { Link } from "react-router-dom";
+import RegisterPopup from '../general/RegisterPopup'
+
 
 const Header = () => {
   return (
@@ -51,13 +53,8 @@ const Header = () => {
           </Link>
         </li>
 
-        <li>
-          <Link
-            to="register"
-            className="bg-primary text-white rounded-3xl py-2 px-7 font-semibold"
-          >
-            Register
-          </Link>
+        <li className="">
+          <RegisterPopup/>
         </li>
       </ul>
     </nav>

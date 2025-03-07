@@ -1,9 +1,11 @@
 import React from 'react'
-
+import RegisterPopup from './RegisterPopup'
 const FooterForm = () => {
   return (
     <>
         <section className="py-8 bg-[#D0D9FF] px-[6em] space-y-3">
+        <RegisterPopup/>
+
             <h2 className="text-center font-manrope font-semibold text-primary text-3xl">
                 Expert Advice You Can Trust.
             </h2>

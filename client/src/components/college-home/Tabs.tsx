@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Home from "./tab-elements/home/Home";
+import CoursesFees from "./tab-elements/courses-fees/CoursesFees";
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
@@ -37,7 +38,7 @@ const Tabs = () => {
                     <Home />
                 )}
                 {activeTab === "Courses & Fees" && (
-                    <p className="text-gray-600">Find detailed information about various institutions.</p>
+                    <CoursesFees/>
                 )}
                 {activeTab === "Admission" && (
                     <p className="text-gray-600">Admission.</p>

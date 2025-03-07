@@ -26,6 +26,12 @@ body section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.rform-bg{
+    background: url('../Form-pop.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .bg-myCyan{
     background: linear-gradient(180deg, #D2F5FB 0%, #80ECFF 100%);
@@ -72,5 +78,7 @@ body section{
 .my-x-scroller::-webkit-scrollbar-track {
     background-color: grey; 
     border-radius: 10px; 
+    
 }
 /* ************************SCROLLBAR STYLE */
+
