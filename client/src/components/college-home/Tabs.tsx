@@ -2,6 +2,7 @@ import { useState } from "react";
 import Home from "./tab-elements/home/Home";
 import CoursesFees from "./tab-elements/courses-fees/CoursesFees";
 import Admission from "./tab-elements/admission/Admission";
+import Scholarship from "./tab-elements/scholarship/Scholarship";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
@@ -45,7 +46,7 @@ const Tabs = () => {
                     <Admission/>
                 )}
                 {activeTab === "Scholarship" && (
-                    <p className="text-gray-600">Learn about the admission Scholarship.</p>
+                    <Scholarship/>
                 )}
                 {activeTab === "Placement" && (
                     <p className="text-gray-600">Compare colleges side by Placement.</p>
