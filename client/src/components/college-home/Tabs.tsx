@@ -3,6 +3,7 @@ import Home from "./tab-elements/home/Home";
 import CoursesFees from "./tab-elements/courses-fees/CoursesFees";
 import Admission from "./tab-elements/admission/Admission";
 import Scholarship from "./tab-elements/scholarship/Scholarship";
+import Placements from "./tab-elements/placements/Placements";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
@@ -17,7 +18,7 @@ const Tabs = () => {
             {/* Tab Buttons */}
             <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center">
                 {[
-                    "Home", "Courses & Fees", "Admission", "Scholarship", "Placement", "Campus", "Gallery", "Reviews"].map(
+                    "Home", "Courses & Fees", "Admission", "Scholarship", "Placements", "Campus", "Gallery", "Reviews"].map(
                     (tab) => (
                         <button
                             key={tab}
@@ -48,8 +49,8 @@ const Tabs = () => {
                 {activeTab === "Scholarship" && (
                     <Scholarship/>
                 )}
-                {activeTab === "Placement" && (
-                    <p className="text-gray-600">Compare colleges side by Placement.</p>
+                {activeTab === "Placements" && (
+                    <Placements/>
                 )}
                 {activeTab === "Campus" && (
                     <p className="text-gray-600">Compare colleges side by Campus.</p>
