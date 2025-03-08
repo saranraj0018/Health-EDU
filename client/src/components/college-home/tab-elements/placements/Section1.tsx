@@ -24,7 +24,6 @@ const DPCList = (
         <li>A well-structured placement team that bridges the gap between students and industry.</li>
         <li>Personalized career counseling and professional grooming sessions.</li>
     </ul>
-
 );
 const Icon2 = (
     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 28 26" fill="none">
