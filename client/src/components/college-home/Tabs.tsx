@@ -5,6 +5,7 @@ import Admission from "./tab-elements/admission/Admission";
 import Scholarship from "./tab-elements/scholarship/Scholarship";
 import Placements from "./tab-elements/placements/Placements";
 import Campus from "./tab-elements/campus/Campus";
+import Gallery from "./tab-elements/gallery/Gallery";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
@@ -57,7 +58,7 @@ const Tabs = () => {
                     <Campus/>
                 )}
                 {activeTab === "Gallery" && (
-                    <p className="text-gray-600">Compare colleges side by gallery.</p>
+                    <Gallery/>
                 )}
                 {activeTab === "Reviews" && (
                     <p className="text-gray-600">Compare colleges side by Reviews.</p>
