@@ -6,6 +6,10 @@ import Scholarship from "./tab-elements/scholarship/Scholarship";
 import Placements from "./tab-elements/placements/Placements";
 import Campus from "./tab-elements/campus/Campus";
 import Gallery from "./tab-elements/gallery/Gallery";
+import Reviews from "./tab-elements/reviews/Reviews";
+
+
+
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Home"); // Default active tab
 
@@ -16,55 +20,55 @@ const Tabs = () => {
 
     return (
         <>
-        <section className="mt-5 container px-[8em]">
-            {/* Tab Buttons */}
-            <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center">
-                {[
-                    "Home", "Courses & Fees", "Admission", "Scholarship", "Placements", "Campus", "Gallery", "Reviews"].map(
-                    (tab) => (
-                        <button
-                            key={tab}
-                            onClick={() => handleTabChange(tab)}
-                            className={`text-3xl hover:bg-primary hover:text-white py-2 px-4 bg-[#F4F4F7] font-manrope rounded-full font-medium transition ${activeTab === tab ? "bg-primary text-white" : "text-[#101010]"
-                                } text-sm`}
-                        >
-                            {tab.charAt(0).toUpperCase() + tab.slice(1)}
-                        </button>
-                    )
-                )}
-            </div>
-        </section>
-        <hr/>
-        <section className="mb-5">
-            {/* Tab Content */}
-            <div className="mt-5">
+            <section className="mt-5 container px-[8em]">
+                {/* Tab Buttons */}
+                <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center">
+                    {[
+                        "Home", "Courses & Fees", "Admission", "Scholarship", "Placements", "Campus", "Gallery", "Reviews"].map(
+                            (tab) => (
+                                <button
+                                    key={tab}
+                                    onClick={() => handleTabChange(tab)}
+                                    className={`text-3xl hover:bg-primary hover:text-white py-2 px-4 bg-[#F4F4F7] font-manrope rounded-full font-medium transition ${activeTab === tab ? "bg-primary text-white" : "text-[#101010]"
+                                        } text-sm`}
+                                >
+                                    {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                                </button>
+                            )
+                        )}
+                </div>
+            </section>
+            <hr />
+            <section className="mb-5">
+                {/* Tab Content */}
+                <div className="mt-5">
 
-                {activeTab === "Home" && (
-                    <Home />
-                )}
-                {activeTab === "Courses & Fees" && (
-                    <CoursesFees/>
-                )}
-                {activeTab === "Admission" && (
-                    <Admission/>
-                )}
-                {activeTab === "Scholarship" && (
-                    <Scholarship/>
-                )}
-                {activeTab === "Placements" && (
-                    <Placements/>
-                )}
-                {activeTab === "Campus" && (
-                    <Campus/>
-                )}
-                {activeTab === "Gallery" && (
-                    <Gallery/>
-                )}
-                {activeTab === "Reviews" && (
-                    <p className="text-gray-600">Compare colleges side by Reviews.</p>
-                )}
-            </div>
-        </section>
+                    {activeTab === "Home" && (
+                        <Home />
+                    )}
+                    {activeTab === "Courses & Fees" && (
+                        <CoursesFees />
+                    )}
+                    {activeTab === "Admission" && (
+                        <Admission />
+                    )}
+                    {activeTab === "Scholarship" && (
+                        <Scholarship />
+                    )}
+                    {activeTab === "Placements" && (
+                        <Placements />
+                    )}
+                    {activeTab === "Campus" && (
+                        <Campus />
+                    )}
+                    {activeTab === "Gallery" && (
+                        <Gallery />
+                    )}
+                    {activeTab === "Reviews" && (
+                        <Reviews />
+                    )}
+                </div>
+            </section>
         </>
     );
 };
