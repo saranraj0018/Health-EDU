@@ -96,7 +96,7 @@ const PAList = (
 const Section1 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-3">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-3">
                 <h2 className="text-primary text-2xl font-manrope font-semibold text-center">
                     Placements at Abirami College of Pharmacy:<br />
                     Launch Your Career with Confidence
@@ -105,16 +105,16 @@ const Section1 = () => {
                     At Abirami College of Pharmacy, we are committed to shaping the future of<br /> our students by providing robust placement opportunities.
                 </p>
                 <div className="grid grid-cols-12 gap-3 my-5">
-                    <div className="col-span-12 md:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
+                    <div className="col-span-12 md:col-span-6 lg:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
                         <Card Icon={Icon1} Title="Dedicated Placement Cell" Content={DPCList} />
                     </div>
-                    <div className="col-span-12 md:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
+                    <div className="col-span-12 md:col-span-6 lg:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
                         <Card Icon={Icon2} Title="Industry Partnerships" Content={IpList} />
                     </div>
-                    <div className="col-span-12 md:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
+                    <div className="col-span-12 md:col-span-6 lg:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
                         <Card Icon={Icon3} Title="Pre-Placement Training" Content={PPTList} />
                     </div>
-                    <div className="col-span-12 md:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
+                    <div className="col-span-12 md:col-span-6 lg:col-span-3 p-4 rounded-2xl bg-[#F1F4FF]">
                         <Card Icon={Icon4} Title="100% Placement Assistance" Content={PAList} />
                     </div>
                 </div>

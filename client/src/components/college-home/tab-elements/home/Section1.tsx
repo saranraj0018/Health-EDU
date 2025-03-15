@@ -13,12 +13,12 @@ type Props = {
 const Section1 = ({CollegeName, Hp, Ap, Sp, Hfee}: Props) => {
     return (
         <>
-            <section className="my-3 px-[8em]">
+            <section className="my-3 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
                 <div className="grid grid-cols-10 gap-3">
-                    <div className="col-span-10 md:col-span-3">
+                    <div className="col-span-10 md:col-span-4 lg:col-span-3">
                         <img src={Infrastructure} alt="" className="h-full" />
                     </div>
-                    <div className="col-span-10 md:col-span-5 bg-myCyan rounded-3xl p-4">
+                    <div className="col-span-10 md:col-span-6 lg:col-span-5 bg-myCyan rounded-3xl p-4">
                         <div className="flex bg-[#5ab6c7] rounded-full p-1 text-white w-max">
                             <div className="bg-[#053338] rounded-full px-1 py-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -94,7 +94,7 @@ const Section1 = ({CollegeName, Hp, Ap, Sp, Hfee}: Props) => {
                         </div>
 
                     </div>
-                    <div className="col-span-10 md:col-span-2">
+                    <div className="col-span-10 md:col-span-10 lg:col-span-2 mx-auto lg:mx-0">
                         <img src={LadyImage} alt="" />
                     </div>
                 </div>

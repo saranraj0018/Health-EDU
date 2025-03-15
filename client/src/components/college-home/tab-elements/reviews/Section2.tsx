@@ -4,7 +4,7 @@ import Infra2 from "../../../../assets/college-home/tabs/gallery//Infra2.png";
 const Section2 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-2 bg-[#F1F4FF] py-5 my-8">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-2 bg-[#F1F4FF] py-5 my-8">
                 <h2 className="text-primary font-manrope text-center font-semibold text-2xl">
                     Student Testimonials
                 </h2>

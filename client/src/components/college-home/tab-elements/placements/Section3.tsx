@@ -15,7 +15,7 @@ const Section3 = () => {
     };
     return (
         <>
-            <section className="my-3 px-[8em]">
+            <section className="my-3 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
                 <div className="flex space-x-2 justify-center">
                     <div className="rounded-full p-2 bg-[#F1F4FF]">
                         {PrIcon}
@@ -25,9 +25,9 @@ const Section3 = () => {
                     </div>
                 </div>
             </section>
-            <section className="mt-5 container px-[8em]">
+            <section className="mt-5 container px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
                 {/* Tab Buttons */}
-                <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center">
+                <div className="flex flex-col md:flex-row my-3 space-x-2 space-y-2 w-full text-center justify-center">
                     {[
                         "2023", "2022", "2021"].map(
                             (tab) => (

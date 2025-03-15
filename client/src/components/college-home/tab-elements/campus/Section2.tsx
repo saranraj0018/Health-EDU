@@ -20,7 +20,7 @@ const Hospital = (
 const Section2 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-2">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-2">
                 <h2 className="text-primary text-2xl font-manrope font-semibold text-center">
                     Abirami College Of Pharmacy Facilities
                 </h2>

@@ -3,7 +3,7 @@ import Gallery1 from "../../../../assets/college-home/tabs/gallery/Gallery-1.png
 const Section1 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-2">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-2">
                 <h2 className="text-primary text-2xl font-manrope font-semibold text-center">
                     A Glimpse into Life at Abirami College of Pharmacy
                 </h2>

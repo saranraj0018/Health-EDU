@@ -2,7 +2,7 @@
 const FooterForm = () => {
   return (
     <>
-        <section className="py-8 bg-[#D0D9FF] px-[6em] space-y-3">
+        <section className="py-8 bg-[#D0D9FF] px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-3">
             <h2 className="text-center font-manrope font-semibold text-primary text-3xl">
                 Expert Advice You Can Trust.
             </h2>

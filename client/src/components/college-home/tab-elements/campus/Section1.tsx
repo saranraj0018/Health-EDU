@@ -6,7 +6,7 @@ import Campus4 from "../../../../assets/college-home/tabs/campus/Campus-4.png";
 const Section1 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-2">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-2">
                 <h2 className="text-primary text-2xl font-manrope font-semibold text-center">
                     A Perfect Blend of Learning and Living
                 </h2>

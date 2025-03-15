@@ -13,7 +13,7 @@ const Section5 = () => {
 
   return (
     <>
-      <section className="my-5  px-[8em] xl:px-[8em] 2xl:px-[10em]">
+      <section className="my-5 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
         <h2 className="text-lg md:text-3xl text-primary font-manrope font-medium mb-6">
           Discover Colleges & Courses Hand Picked For You
         </h2>
@@ -22,7 +22,7 @@ const Section5 = () => {
             {/* Tab Buttons */}
             <button
               onClick={() => handleTabChange("ranking")}
-              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 ease-out ${
+              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 text-[12px] lg:text-[15px] ease-out ${
                 activeTab === "ranking" ? "bg-primary text-white" : ""
               } text-sm`}
             >
@@ -30,7 +30,7 @@ const Section5 = () => {
             </button>
             <button
               onClick={() => handleTabChange("colleges")}
-              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 ease-out ${
+              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 text-[12px] lg:text-[15px] ease-out ${
                 activeTab === "colleges" ? "bg-primary text-white" : ""
               } text-sm`}
             >
@@ -38,7 +38,7 @@ const Section5 = () => {
             </button>
             <button
               onClick={() => handleTabChange("courses")}
-              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 ease-out ${
+              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 text-[12px] lg:text-[15px] ease-out ${
                 activeTab === "courses" ? "bg-primary text-white" : ""
               } text-sm`}
             >
@@ -46,7 +46,7 @@ const Section5 = () => {
             </button>
             <button
               onClick={() => handleTabChange("applications")}
-              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 ease-out ${
+              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 text-[12px] lg:text-[15px] ease-out ${
                 activeTab === "applications" ? "bg-primary text-white" : ""
               } text-sm`}
             >
@@ -54,7 +54,7 @@ const Section5 = () => {
             </button>
             <button
               onClick={() => handleTabChange("compare")}
-              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 ease-out ${
+              className={`hover:bg-primary hover:text-white focus:bg-primary focus:text-white py-1 px-3 rounded-full font-manrope font-medium duration-450 text-[12px] lg:text-[15px] ease-out ${
                 activeTab === "compare" ? "bg-primary text-white" : ""
               } text-sm`}
             >
@@ -62,8 +62,8 @@ const Section5 = () => {
             </button>
           </div>
           <div className="flex">
-            <img src={New} alt="" className="w-[100px]" />
-            <div className="text-primary font-manrope font-medium w-[150px] my-auto">
+            <img src={New} alt="" className="w-[70px] md:w-[100px]"/>
+            <div className="text-primary text-[12px] lg:text-[15px] font-manrope font-medium w-[150px] my-auto">
               Know Your College
             </div>
           </div>

@@ -5,7 +5,7 @@ const Admission = () => {
     return (
         <>
             <Section1 />
-            <section className="rounded-2xl p-4 bg-[#E6EBFF] mx-[8em]">
+            <section className="rounded-2xl p-4 bg-[#E6EBFF] mx-[1em] lg:mx-[8em] xl:mx-[8em] 2xl:mx-[10em]">
                 <Filters />
                 <div className="grid grid-cols-12 gap-3">
                     <div className="col-span-12 md:col-span-3 border-1 border-[#E0E0E0] rounded-2xl">

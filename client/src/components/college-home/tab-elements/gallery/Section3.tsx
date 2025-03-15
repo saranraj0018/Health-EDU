@@ -18,7 +18,7 @@ const Facilities = (
 const Section3 = () => {
     return (
         <>
-            <section className="px-[8em] space-y-2 my-4">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] space-y-2 my-4">
                 <div className="flex space-x-2 justify-center">
                     <div className="rounded-full p-2 bg-white">
                         {Facilities}

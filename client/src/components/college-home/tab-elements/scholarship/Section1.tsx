@@ -74,9 +74,9 @@ type Props = {
 const Section1 = ({ Title, Description, Rating }: Props) => {
     return (
         <>
-            <section className="px-[8em] my-5">
-                <div className="grid grid-cols-12 gap-3">
-                    <div className="col-span-12 md:col-span-5 space-y-4">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] my-5">
+                <div className="grid grid-cols-12 gap-8">
+                    <div className="col-span-12 lg:col-span-5 space-y-4">
                         <h2 className="text-primary text-2xl font-manrope font-semibold">
                             {Title}
                         </h2>
@@ -94,17 +94,17 @@ const Section1 = ({ Title, Description, Rating }: Props) => {
                                 {Rating}
                             </div>
                         </div>
-                        <div className="flex space-x-2 my-4">
-                            <img src={Scholarship1} alt="" />
-                            <img src={Scholarship2} alt="" />
+                        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 my-4">
+                            <img src={Scholarship1} alt="" className="w-100 md:w-1/2"/>
+                            <img src={Scholarship2} alt="" className="w-100 md:w-1/2"/>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-7 my-auto">
+                    <div className="col-span-12 lg:col-span-7 my-auto">
                         <Content Icon1={MBScholar} Title1="Merit-Based Scholarships" Icon2={NBScholar} Title2="Need-Based Scholarships" Icon3={SportScholar} Title3="Sports Scholarships" Icon4={GPScholar} Title4="Government & Private Scholarships" />
                     </div>
                 </div>
             </section>
-            <section className="my-8 bg-[#F1F4FF] ps-[8em]">
+            <section className="my-8 bg-[#F1F4FF] ps-[1em] lg:ps-[8em] xl:ps-[8em] 2xl:ps-[10em]">
                 <div className="grid grid-cols-12 gap-5">
                     <div className="col-span-12 md:col-span-5 space-y-4 my-auto">
                         <div className="flex space-x-2">

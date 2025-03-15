@@ -5,7 +5,10 @@ import RegisterPopup from '../general/RegisterPopup'
 
 const Header = () => {
   return (
-    <nav className="bg-white px-[8em] flex justify-between items-center py-4 h-fit">
+    
+    // TODO: NEED TO FIX RESPONSIVE HERE - ALTER CLASS NAME
+
+    <nav className="hidden lg:flex bg-white px-[8em] justify-between items-center py-4 h-fit">
       <div className="w-[110px]">
         <img src={Logo} alt="Logo" className="" />
       </div>

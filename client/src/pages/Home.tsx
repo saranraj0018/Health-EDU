@@ -20,9 +20,9 @@ const Home = () => {
     <>
       <Hero />
 
-      <section className=" px-[8em] xl:px-[8em] 2xl:px-[10em] h-fit mt-[3em] overflow-hidden">
+      <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] h-fit lg:mt-[3em] overflow-hidden">
         <div className="my-8">
-          <h2 className="text-center text-[1.5em] font-manrope font-medium text-primary">
+          <h2 className="text-center text-md md:text-[1.5em] font-manrope font-medium text-primary">
             Confused about choosing the right college?
           </h2>
           <p className="text-center text-sm font-manrope mt-2 text-myfont font-medium">
@@ -31,7 +31,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="gap-5 p-3 h-[67vh] xl:h-[50vh] flex justify-center items-center ">
+        <div className="gap-5 p-3 lg:h-[67vh] xl:h-[50vh] flex flex-col md:flex-row md:justify-center items-center">
           <div className="flex flex-col justify-between xl:justify-start h-full space-y-8">
             <Card
               icon={Icon}
@@ -75,19 +75,19 @@ const Home = () => {
         <hr className="text-[#7a89ff] my-16" />
       </section>
 
-      <div className=" px-[8em] xl:px-[8em] 2xl:px-[10em] mx-auto my-5">
-        <div className="text-center text-3xl font-manrope font-medium text-primary">
+      <div className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] mx-auto my-5">
+        <div className="text-center text-lg md:text-[1.5em] font-manrope font-medium text-primary">
           Discover New Perks
         </div>
 
-        <div className="mt-7 grid grid-cols-10 gap-4 px-7">
-          <div className="col-span-12 md:col-span-3 bg-[#e6ebff] px-4 pt-4 rounded-3xl md:flex md:flex-col justify-between">
+        <div className="mt-7 grid grid-cols-10 gap-4 px-3 md:px-7">
+          <div className="col-span-12 lg:col-span-3 bg-[#e6ebff] px-2 pt-4 rounded-3xl md:flex md:flex-col justify-between">
             <div>
               <h2 className="text-[25px] mb-4 text-center text-[#A5B1E3] font-bold font-manrope">
                 International Exposure
               </h2>
 
-              <div className="md:flex my-2 p-4">
+              <div className="flex my-2 p-1 md:p-4">
                 <i className="text-xs">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ const Home = () => {
             <img src={GirlPng} alt="" className="mx-auto" />
           </div>
 
-          <div className="col-span-12 md:col-span-7">
+          <div className="col-span-12 lg:col-span-7">
             <div className="grid grid-cols-10 gap-3">
               <div className="col-span-12 md:col-span-6 bg-[#edfcfe] rounded-2xl p-3">
                 <div className="my-2 w-fit bg-white p-1 rounded-full flex justify-start items-center px-2 gap-2">
@@ -156,7 +156,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-span-12 md:col-span-4">
+              <div className="col-span-12 md:col-span-4 my-auto md:my-0">
                 <img src={GirlPic} alt="" className="mx-auto" />
               </div>
             </div>
@@ -208,10 +208,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="bg-[#d0d9ff] pt-12 my-16 px-[8em] xl:px-[8em] 2xl:px-[10em]">
+      <section className="bg-[#d0d9ff] pt-12 my-16 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
         <div className="mx-auto">
           <div className="grid grid-cols-12 gap-3">
-            <div className="col-span-12 md:col-span-5 xl:col-span-6 2xl:col-span-6 space-y-5 my-auto">
+            <div className="col-span-12 lg:col-span-5 xl:col-span-6 2xl:col-span-6 space-y-5 my-auto">
               <h2 className="text-lg md:text-3xl text-primary font-manrope font-medium">
                 Unsure about the right medical career path?
               </h2>
@@ -225,8 +225,8 @@ const Home = () => {
                 Find Your Career Match
               </button>
             </div>
-            <div className="col-span-12 md:col-span-7 xl:col-span-6 2xl:col-span-6 flex align-bottom">
-              <img src={Img} alt="" />
+            <div className="col-span-12 lg:col-span-7 xl:col-span-6 2xl:col-span-6 flex align-bottom">
+              <img src={Img} alt="" className="mx-auto"/>
             </div>
           </div>
         </div>

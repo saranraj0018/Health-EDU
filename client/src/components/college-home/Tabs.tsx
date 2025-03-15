@@ -20,16 +20,16 @@ const Tabs = () => {
 
     return (
         <>
-            <section className="mt-5 container px-[8em]">
+            <section className="mt-5 container px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
                 {/* Tab Buttons */}
-                <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center">
+                <div className="flex flex-col md:flex-row my-3 space-x-2 w-full text-center justify-center space-y-2">
                     {[
                         "Home", "Courses & Fees", "Admission", "Scholarship", "Placements", "Campus", "Gallery", "Reviews"].map(
                             (tab) => (
                                 <button
                                     key={tab}
                                     onClick={() => handleTabChange(tab)}
-                                    className={`text-3xl hover:bg-primary hover:text-white py-2 px-4 bg-[#F4F4F7] font-manrope rounded-full font-medium transition ${activeTab === tab ? "bg-primary text-white" : "text-[#101010]"
+                                    className={`text-3xl md:text-[11px] lg:text-[15px] hover:bg-primary hover:text-white py-2 px-4 bg-[#F4F4F7] font-manrope rounded-full font-medium transition ${activeTab === tab ? "bg-primary text-white" : "text-[#101010]"
                                         } text-sm`}
                                 >
                                     {tab.charAt(0).toUpperCase() + tab.slice(1)}

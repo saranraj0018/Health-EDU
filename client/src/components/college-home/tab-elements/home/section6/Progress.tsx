@@ -42,24 +42,24 @@ const Progress = () => {
                     124 user Reviews
                 </div>
             </div>
-            <div className="flex space-x-8">
-                <div className="space-y-2">
+            <div className="flex flex-wrap lg:flex-nowrap space-x-0 lg:space-x-8 space-y-10 md:space-y-0 justify-center">
+                <div className="space-y-2 w-1/2 md:w-1/3 lg:w-full p-3 md:p-2 lg:p-0">
                     <CircularProgress progress={4.5} />
                     <p className="font-manrope font-semibold text-[14px] text-center">Infrastructure</p>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 w-1/2 md:w-1/3 lg:w-full p-3 md:p-2 lg:p-0">
                     <CircularProgress progress={4.2} />
                     <p className="font-manrope font-semibold text-[14px] text-center">Academics</p>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 w-1/2 md:w-1/3 lg:w-full p-3 md:p-2 lg:p-0">
                     <CircularProgress progress={4.0} />
                     <p className="font-manrope font-semibold text-[14px] text-center">Placements</p>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 w-1/2 md:w-1/3 lg:w-full p-3 md:p-2 lg:p-0">
                     <CircularProgress progress={4.1} />
                     <p className="font-manrope font-semibold text-[14px] text-center">Cost-effective</p>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 w-1/2 md:w-1/3 lg:w-full p-3 md:p-2 lg:p-0">
                     <CircularProgress progress={3.5} />
                     <p className="font-manrope font-semibold text-[14px] text-center">Campus Life</p>
                 </div>

@@ -16,7 +16,7 @@ const OrIcon = (
 const Section4 = () => {
     return (
         <>
-            <section className="my-3 px-[8em] bg-[#f1f4ff] py-3">
+            <section className="my-3 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] bg-[#f1f4ff] py-3">
                 <div className="flex space-x-2 justify-center">
                     <div className="rounded-full p-2 bg-white">
                         {OrIcon}

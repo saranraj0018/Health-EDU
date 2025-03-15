@@ -3,9 +3,9 @@
 const Filters = () => {
   return (
     <>
-        <section className="px-[6em] my-3">
+        <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] my-3">
             <div className="grid grid-cols-12 gap-5 my-2">
-                <div className="col-span-12 md:col-span-1">
+                <div className="col-span-9 lg:col-span-1 order-1 lg:order-1">
                     <button className="flex bg-white p-2 rounded-full text-primary font-semibold shadow-sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" className="me-2">
                             <path d="M22.6806 8.28538H8.7285C8.42983 8.28538 8.17383 8.02938 8.17383 7.73071C8.17383 7.43204 8.42983 7.17604 8.7285 7.17604H22.6806C22.9792 7.17604 23.2352 7.43204 23.2352 7.73071C23.2352 8.02938 22.9792 8.28538 22.6806 8.28538Z" fill="#02054D"/>
@@ -21,7 +21,7 @@ const Filters = () => {
                             Filters
                     </button>
                 </div>
-                <div className="col-span-12 md:col-span-9 ms-2">
+                <div className="col-span-12 lg:col-span-9 ms-0 lg:ms-2 order-3 lg:order-2">
                     <div className="flex space-x-3 bg-white rounded-full p-2 shadow-sm">
                         <div className="flex my-auto space-x-2">
                             <div>
@@ -59,8 +59,8 @@ const Filters = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-12 md:col-span-2 my-auto">
-                    <div className="space-x-2">
+                <div className="col-span-3 lg:col-span-2 my-auto order-2 lg:order-3">
+                    <div className="space-x-2 flex justify-end">
                         <button className="bg-white p-2 rounded-full text-primary font-semibold shadow-sm ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                                 <g clip-path="url(#clip0_4974_2661)">

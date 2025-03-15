@@ -9,7 +9,7 @@ const CoursesFees = () => {
       </h2>
       <Filters />
 
-      <section className="px-[6em]">
+      <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
         <div className="grid grid-cols-12 gap-3">
           <div className="col-span-12 md:col-span-3 border-1 border-[#E0E0E0] rounded-2xl">
             <Card CourseName="B.Pharma" YearlyFees="39000 INR" TotalFees="156000/-" Duration="4 Years" Eligiblity="10+2 with 50% + NEET" />

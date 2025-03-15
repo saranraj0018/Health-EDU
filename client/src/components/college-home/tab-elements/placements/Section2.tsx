@@ -9,7 +9,7 @@ const PhIcon = (
 const Section2 = () => {
     return (
         <>
-            <section className="my-5 px-[8em]">
+            <section className="my-5 px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em]">
                 <div className="flex space-x-2 justify-center">
                     <div className="rounded-full p-2 bg-[#F1F4FF]">
                         {PhIcon}
