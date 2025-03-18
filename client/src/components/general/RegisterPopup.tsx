@@ -37,7 +37,7 @@ const RegisterPopup = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-start lg:justify-center items-center w-full">
             {/* Button to Open Popup */}
             <button
                 onClick={() => setIsOpen(true)}
