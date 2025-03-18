@@ -7,8 +7,8 @@ import Scape from "../../assets/360.png";
 const Section3 = () => {
   return (
     <>
-      <div className="px-[6em] mx-auto my-5">
-        <div className="text-center text-3xl font-manrope font-medium text-primary">
+      <div className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] mx-auto my-5">
+        <div className="text-center text-md md:text-[1.5em] font-manrope font-medium text-primary">
           Discover New Perks
         </div>
 

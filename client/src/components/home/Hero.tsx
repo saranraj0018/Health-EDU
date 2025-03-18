@@ -5,9 +5,9 @@ import Search from "./banner/Search";
 const Hero = () => {
   return (
     <>
-      <section className="hero-bg py-8 h-[80vh] flex justify-center items-center">
+      <section className="hero-bg py-8 lg:h-[80vh] flex justify-center items-center">
         <div className="px-[30px]">
-          <div className="text-center text-white font-manrope text-md md:text-5xl font-medium">
+          <div className="text-center text-white font-manrope text-2xl md:text-5xl font-medium">
             Your Gateway to
             <br />
             <span className="text-secondary">

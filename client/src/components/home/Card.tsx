@@ -10,7 +10,7 @@ const Card = ({
   description: string;
 }) => {
   return (
-    <div className="p-5 bg-[#f1f4ff] rounded-2xl w-[400px]">
+    <div className="p-5 bg-[#f1f4ff] rounded-2xl">
       <div className="flex justify-between">
         <h2 className="font-medium my-auto text-[18px]">{heading}</h2>
         <img src={icon} alt="" />

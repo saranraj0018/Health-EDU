@@ -49,7 +49,7 @@ const Section7 = () => {
         </div>
       </section>
       
-      <section className="container mx-auto px-[5em] mt-[-100px] m-16">
+      <section className="container mx-auto px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] mt-[-100px] m-16">
         <div className="relative">
           {/* Left Arrow */}
           <button

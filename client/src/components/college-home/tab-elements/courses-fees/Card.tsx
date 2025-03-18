@@ -56,8 +56,7 @@ const Card = ({CourseName,YearlyFees,TotalFees,Duration,Eligiblity}: Props) => {
           <button className="text-white bg-[#444FFF] rounded-full px-2 py-1 w-full">
               Apply Now
           </button>
-      </div>
-        
+      </div>        
       </>
     )
   }

@@ -52,7 +52,7 @@ const Section6 = () => {
           </h2>
         </div>
       </section>
-      <section className=" px-[8em] xl:px-[8em] 2xl:px-[10em] mt-[-100px] my-16">
+      <section className=" px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] mt-[-100px] my-16">
         {/* Slider Container */}
         <div className="relative">
           {/* Left Arrow */}

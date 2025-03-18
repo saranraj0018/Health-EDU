@@ -2,7 +2,7 @@ import UpdatesCard from "./UpdatesCard";
 const Section6 = () => {
     return (
         <>
-            <section className="px-[8em] my-10">
+            <section className="px-[1em] lg:px-[8em] xl:px-[8em] 2xl:px-[10em] my-10">
                 <div className="bg-[#f4f4f7] rounded-3xl p-5">
                     <div className="flex justify-between">
                         <div className="flex space-x-2">
