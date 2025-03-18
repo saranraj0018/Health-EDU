@@ -49,8 +49,8 @@ const RegisterPopup = () => {
 
             {/* Popup Modal */}
             {isOpen && (
-                <div className="fixed inset-0 bg-[#0000001a] bg-opacity-50 flex justify-center items-center" style={{ zIndex: 2 }}>
-                    <div className="bg-[#ffffffb1] backdrop-blur-md p-6 rounded-3xl shadow-lg w-200">
+                <div className="fixed inset-0 bg-[#0000001a] bg-opacity-50 flex justify-center items-center overflow-y-scroll md:overflow-y-hidden pt-80 md:pt-0 " style={{ zIndex: 2 }}>
+                    <div className="bg-[#ffffffb1] backdrop-blur-md p-6 mx-4 md:m-0 rounded-3xl shadow-lg w-200">
                         {/* Close Button */}
                         {/* <button
                             onClick={() => setIsOpen(false)}
@@ -61,7 +61,7 @@ const RegisterPopup = () => {
 
                         {/* Popup Content */}
                         <div className="grid grid-cols-12 gap-3">
-                            <div className="col-span-12 md:col-span-5 space-y-3">
+                            <div className="col-span-12 lg:col-span-5 space-y-3 hidden lg:block">
                                 <div className="rounded-2xl rform-bg p-3">
                                     <img src={DarkLogo} alt="" className="mx-auto my-3" />
                                     <div className="flex flex-wrap space-x-1 space-y-2">
@@ -115,7 +115,7 @@ const RegisterPopup = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-span-12 md:col-span-7 border-1 border-[#BCBDD3] rounded-2xl p-3 space-y-4">
+                            <div className="col-span-12 lg:col-span-7 border-1 border-[#BCBDD3] rounded-2xl p-3 space-y-4">
                                 <div className="flex justify-between">
                                     <h2 className="text-lg text-black">
                                         Register now to Apply
@@ -126,12 +126,12 @@ const RegisterPopup = () => {
                                     </button>
                                 </div>
 
-                                <div className="flex space-x-2  ">
-                                    <div className="p-2 rounded-full bg-white h-min">
+                                <div className="flex flex-col lg:flex-row space-x-2">
+                                    <div className="p-2 rounded-full bg-white h-min w-max">
                                         <img src={Icon} alt="" />
                                     </div>
                                     <div className="space-y-2">
-                                        <h3 className="text-md text-black">
+                                        <h3 className="text-md text-black text-start">
                                             Abirami College Of Pharmacy
                                         </h3>
                                         <div className="flex flex-wrap space-x-2 space-y-2">
@@ -171,29 +171,29 @@ const RegisterPopup = () => {
                                     </div>
                                 </div>
                                 <form action="" className="grid grid-cols-12 gap-3 my-3">
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Name</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Email Address</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Phone Number</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Select District</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Course Interested</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
-                                    <div className="col-span-12 md:col-span-6">
+                                    <div className="col-span-12 md:col-span-6 text-start">
                                         <label className="text-black text-[12px]">Select Program Type</label>
-                                        <input type="text" className="text-gray w-full p-2 border-white border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
+                                        <input type="text" className="text-gray w-full p-2 border-[#d4d4d4] border-1 rounded-[10px] bg-[#ffffff2e] backdrop-blur-sm" />
                                     </div>
                                     <div className="col-span-12">
                                         <p className="text-[12px] text-black">
